@@ -2,7 +2,7 @@
     'fetch',
     function(event){
         if (/\.jpg$/.test(event.request.url)){
-            event.respondWith(fetch('silksong.jpg'));
+            event.respondWith(fetch('unicorn.jpg'));
         }
     }
 );

@@ -18,16 +18,6 @@
                     console.log('El registro del SW falló: ', err);
                 }
             );
-            // http://localhost/pwasd25/index.html?n=1&d=4
-            const params = new URLSearchParams(window.location.search);
-            const n = params.get('n');
-            const d = params.get('d');
-            console.log(`Fracción: ${n} / ${d}`);
-
-            let cu = "";
-            for (var i = 0; i < d; i+= 1){
-                cu = cu + i+ ",";
-            }
         }
         
     </script>
